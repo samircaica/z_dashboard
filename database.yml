@@ -1,0 +1,7 @@
+production:
+  <<: *default
+  host: zabbixserver
+  port: 5432
+  database: zabbix_db
+  username: zabbix
+  password: zabbix
